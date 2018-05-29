@@ -1,0 +1,20 @@
+{
+  "name": "jsfiddle-pro",
+  "displayName": "JSFiddle-Pro",
+  "description": "A new Light Theme inspired by JSFiddle syntax color.",
+  "version": "0.0.1",
+  "publisher": "sannguyen91",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JSFiddle Pro",
+        "uiTheme": "vs",
+        "path": "./themes/JSFiddle-Pro-color-theme.json"
+      }
+    ]
+  }
+}
