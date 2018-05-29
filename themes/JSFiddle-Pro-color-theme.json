@@ -91,7 +91,8 @@
         "entity.other.attribute-name.id.css",
         "keyword.control.at-rule.media",
         "storage.type.primitive.dart",
-        "storage.type.annotation.dart"
+        "storage.type.annotation.dart",
+        "variable.language.dart"
       ],
       "settings": {
         "foreground": "#f18c16"
@@ -111,7 +112,7 @@
     },
     {
       "name": "Red",
-      "scope": ["constant.numeric", "keyword.other.unit"],
+      "scope": ["constant.numeric", "keyword.other.unit", "keyword.operator"],
       "settings": {
         "foreground": "#ED5C65"
       }

@@ -16,5 +16,6 @@
         "path": "./themes/JSFiddle-Pro-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": "https://github.com/sandangel/jsfiddle-pro-theme"
 }
