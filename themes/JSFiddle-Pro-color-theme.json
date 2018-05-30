@@ -107,6 +107,10 @@
         "keyword.control.at-rule.import",
         "keyword.control.at-rule.media",
 
+        // ts
+        "variable.other.object.property.ts",
+        "variable.other.property.ts",
+
         // js
         "constant.language.boolean.false.js",
         "constant.language.boolean.true.js",
