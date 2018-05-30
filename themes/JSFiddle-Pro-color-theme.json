@@ -4,13 +4,13 @@
       "name": "DarkGrey",
       "scope": [
         "variable.other.property",
+        "variable.function",
 
         // ts
         "variable.other.object.property.ts",
 
         // css
-        "support.type.property-name.media.css",
-        "variable.function"
+        "support.type.property-name.media.css"
       ],
       "settings": {
         "foreground": "#39464E"
@@ -97,7 +97,8 @@
         "keyword.control.at-rule.media",
 
         // js
-        "constant.language.boolean.js",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js",
         "variable.other.constant.property.js",
 
         // html
@@ -126,7 +127,8 @@
         "support.type.primitive",
 
         // dart
-        "string.interpolated.dart"
+        "string.interpolated.single.dart",
+        "string.interpolated.double.dart"
       ],
       "settings": {
         "foreground": "#249D7F"
