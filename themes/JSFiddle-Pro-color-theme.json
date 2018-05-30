@@ -3,95 +3,116 @@
     {
       "name": "DarkGrey",
       "scope": [
+        // markup text
+        "text.html",
+        "text.xml",
+
+        // source text
+        "source",
+
+        // fields, properties, members of data structure
+        "variable.other.member",
+
+        // module type like those with import * as Module from 'test';
+        "entity.name.type.module",
+
+        // property for selector in css like language
+        "support.type.property-name",
+
+        // properties go after this keyword
+        "support.variable.property",
+
+        // properties when access object
         "variable.other.property",
-        "variable.function",
 
-        // ts
-        "variable.other.object.property.ts",
-        "variable.object.property.ts",
-        "meta.object-literal.key.ts",
-
-        // css
-        "support.type.property-name.media.css"
+        // parameter in function
+        "variable.parameter"
       ],
       "settings": {
-        "foreground": "#39464E"
+        "foreground": "#39464E",
+        "fontStyle": ""
       }
     },
     {
       "name": "LightGrey",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#969896"
+        "foreground": "#969896",
+        "fontStyle": ""
       }
     },
     {
       "name": "Blue",
       "scope": [
-        "entity.name.type",
+        // markup tag
         "entity.name.tag",
-        "variable.other.object",
-        "entity.other.inherited-class",
-        "variable.parameter",
+
+        // name of namespace
+        "entity.name.namespace",
+
+        // name of function
+        "entity.name.function",
+
+        // markup header like in markdown
+        "entity.name.section",
+        "markup.heading",
+
+        // markup underline
+        "markup.underline",
+
+        // label like goto
+        "entity.name.label",
+
+        // name of variable
+        "entity.name.constant",
+        "variable.other.constant",
         "variable.other.readwrite",
-        "support.class.console",
+        "punctuation.definition.variable",
 
-        // js
-        "support.function.js",
+        // selector for css, scss
+        "meta.selector",
 
-        // dart
-        "support.class.dart",
+        // methods called
+        "support.function",
 
-        // css
-        "support.type.property-name.css",
-
-        // graphql
-        "support.type.graphql"
+        // name of function when reference
+        "variable.function"
       ],
       "settings": {
-        "foreground": "#2795EE"
+        "foreground": "#2795EE",
+        "fontStyle": ""
       }
     },
     {
       "name": "DarkBlue",
       "scope": [
-        "constant.language.boolean",
-        "constant.other.color.rgb-value",
-        "support.constant.property-value",
-        ""
+        // type built into the language
+        "constant.language",
+
+        // framework bultin constant, variable, type like __dirname or css value
+        "support.constant",
+        "support.variable",
+        "support.type"
       ],
       "settings": {
-        "foreground": "#221199"
+        "foreground": "#221199",
+        "fontStyle": ""
       }
     },
     {
       "name": "Purple",
       "scope": [
-        "keyword.control.import",
-        "keyword.control.export",
-        "storage.type.class",
+        "keyword",
+
+        // markup italic
+        "markup.italic",
+
+        // language keyword like function, class...
+        "storage.type",
         "storage.modifier",
-        "variable.language.this",
-        "keyword.control",
-        "variable.parameter",
 
-        // ts
-        "keyword.control.flow.ts",
-
-        // dart
-        "keyword.other.import.dart",
-        "keyword.declaration.dart",
-
-        // css
-        "support.constant.color.w3c-standard-color-name.css",
-
-        // graphql
-        "keyword.union.graphql",
-        "keyword.type.graphql",
-        "keyword.implements.graphql",
-        "keyword.interface.graphql",
-        "keyword.input.graphql",
-        "keyword.scalar.graphql"
+        // reserved variables such as this, self, super
+        "variable.language"
       ],
       "settings": {
         "foreground": "#a151d2",
@@ -101,79 +122,70 @@
     {
       "name": "Orange",
       "scope": [
-        "entity.name",
-        "variable.other.readwrite.alias",
-        "string.quoted",
-        "variable.parameter",
-        "keyword.control.at-rule.import",
-        "keyword.control.at-rule.media",
+        // markup attribute
+        "entity.other.attribute-name",
 
-        // ts
-        "entity.name.type.class.ts",
-        "meta.definition.variable.ts",
+        // markup bold
+        "markup.bold",
 
-        // js
-        "constant.language.boolean.false.js",
-        "constant.language.boolean.true.js",
-        "variable.other.constant.property.js",
+        // inherit class
+        "entity.other.inherited-class",
 
-        // html
-        "entity.other.attribute-name.html",
+        // escape character in string
+        "constant.character.escape",
 
-        // css
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.id.css",
+        // placeholder for string
+        "constant.other.placeholder",
 
-        // dart
-        "storage.type.primitive.dart",
-        "storage.type.annotation.dart",
-        "variable.language.dart",
+        // data structures name
+        "entity.name.class",
+        "entity.name.struct",
+        "entity.name.enum",
+        "entity.name.union",
+        "entity.name.trait",
+        "entity.name.interface",
+        "support.class",
 
-        // json
-        "constant.language.json",
+        // type anotation for variables, parameters and function return
+        "meta.type.annotation",
+        "meta.return.type",
 
-        // graphql
-        "entity.scalar.graphql"
+        // import, export variables
+        "variable.other.readwrite.alias"
       ],
       "settings": {
-        "foreground": "#f18c16"
+        "foreground": "#f18c16",
+        "fontStyle": ""
       }
     },
     {
       "name": "Green",
       "scope": [
-        "string.quoted",
+        "string",
 
-        // dart
-        "string.interpolated.single.dart",
-        "string.interpolated.double.dart",
+        // markup quote
+        "markup.quote",
 
-        // graphql
-        "support.type.builtin.graphql"
+        // type parameters
+        "meta.type.parameters"
       ],
       "settings": {
-        "foreground": "#249D7F"
+        "foreground": "#249D7F",
+        "fontStyle": ""
       }
     },
     {
       "name": "Red",
       "scope": [
+        // numberic value
         "constant.numeric",
-        "keyword.other.unit",
-        "keyword.operator",
 
-        "support.type.primitive",
-        "support.type.builtin",
-
-        // ts
-        "storage.type.function.arrow.ts",
-        "storage.type.ts",
-        "string.template.ts",
-        "punctuation.definition.typeparameters.begin.ts",
-        "punctuation.definition.typeparameters.end.ts"
+        // operator
+        "keyword.operator"
       ],
       "settings": {
-        "foreground": "#ED5C65"
+        "foreground": "#ED5C65",
+        "fontStyle": ""
       }
     }
   ],
