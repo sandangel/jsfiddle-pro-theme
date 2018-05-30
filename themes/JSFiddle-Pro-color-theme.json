@@ -57,6 +57,10 @@
         "constant.language.boolean",
         "constant.other.color.rgb-value",
         "support.constant.property-value",
+
+        // ts
+        "variable.other.readwrite.ts",
+
         ""
       ],
       "settings": {
