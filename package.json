@@ -2,8 +2,8 @@
   "name": "jsfiddle-pro",
   "displayName": "JSFiddle Pro",
   "description": "A new Light Theme inspired by JSFiddle syntax color.",
-  "version": "0.0.1",
-  "publisher": "sannguyen91",
+  "version": "0.0.2",
+  "publisher": "SandAngel",
   "engines": {
     "vscode": "^1.23.0"
   },

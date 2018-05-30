@@ -1,19 +1,14 @@
 {
   "tokenColors": [
     {
-      "settings": {
-        // "background": "#F3F5F6",
-        "foreground": "#39464E"
-        // "selectionHighlight": "#ADD6FF",
-        // "activeLinkForeground": "#0000FF",
-        // "gotoDefinitionLinkForeground": "#0000FF"
-      }
-    },
-    {
       "name": "DarkGrey",
       "scope": [
         "variable.other.property",
+
+        // ts
         "variable.other.object.property.ts",
+
+        // css
         "support.type.property-name.media.css",
         "variable.function"
       ],
@@ -35,11 +30,18 @@
         "entity.name.tag",
         "variable.other.object",
         "entity.other.inherited-class",
+        "entity.name.function",
         "variable.parameter",
         "variable.other.readwrite",
         "support.class.console",
+
+        // js
+        "support.function.js",
+
+        // dart
         "support.class.dart",
-        "entity.name.function",
+
+        // css
         "support.type.property-name.css"
       ],
       "settings": {
@@ -66,11 +68,17 @@
         "storage.type.class",
         "storage.modifier",
         "variable.language.this",
-        "keyword.control.flow.ts",
         "keyword.control",
         "variable.parameter",
+
+        // ts
+        "keyword.control.flow.ts",
+
+        // dart
         "keyword.other.import.dart",
         "keyword.declaration.dart",
+
+        // css
         "support.constant.color.w3c-standard-color-name.css"
       ],
       "settings": {
@@ -85,14 +93,27 @@
         "variable.other.readwrite.alias",
         "string.quoted",
         "variable.parameter",
-        "entity.other.attribute-name.html",
         "keyword.control.at-rule.import",
+        "keyword.control.at-rule.media",
+
+        // js
+        "constant.language.boolean.js",
+        "variable.other.constant.property.js",
+
+        // html
+        "entity.other.attribute-name.html",
+
+        // css
         "entity.other.attribute-name.class.css",
         "entity.other.attribute-name.id.css",
-        "keyword.control.at-rule.media",
+
+        // dart
         "storage.type.primitive.dart",
         "storage.type.annotation.dart",
-        "variable.language.dart"
+        "variable.language.dart",
+
+        // json
+        "constant.language.json"
       ],
       "settings": {
         "foreground": "#f18c16"
@@ -103,8 +124,9 @@
       "scope": [
         "string.quoted",
         "support.type.primitive",
-        "string.interpolated.single.dart",
-        "string.interpolated.double.dart"
+
+        // dart
+        "string.interpolated.dart"
       ],
       "settings": {
         "foreground": "#249D7F"
