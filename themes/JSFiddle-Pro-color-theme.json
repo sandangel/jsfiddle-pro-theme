@@ -42,7 +42,10 @@
         "support.class.dart",
 
         // css
-        "support.type.property-name.css"
+        "support.type.property-name.css",
+
+        // graphql
+        "support.type.graphql"
       ],
       "settings": {
         "foreground": "#2795EE"
@@ -79,7 +82,15 @@
         "keyword.declaration.dart",
 
         // css
-        "support.constant.color.w3c-standard-color-name.css"
+        "support.constant.color.w3c-standard-color-name.css",
+
+        // graphql
+        "keyword.union.graphql",
+        "keyword.type.graphql",
+        "keyword.implements.graphql",
+        "keyword.interface.graphql",
+        "keyword.input.graphql",
+        "keyword.scalar.graphql"
       ],
       "settings": {
         "foreground": "#a151d2",
@@ -114,7 +125,10 @@
         "variable.language.dart",
 
         // json
-        "constant.language.json"
+        "constant.language.json",
+
+        // graphql
+        "entity.scalar.graphql"
       ],
       "settings": {
         "foreground": "#f18c16"
@@ -128,7 +142,10 @@
 
         // dart
         "string.interpolated.single.dart",
-        "string.interpolated.double.dart"
+        "string.interpolated.double.dart",
+
+        // graphql
+        "support.type.builtin.graphql"
       ],
       "settings": {
         "foreground": "#249D7F"

@@ -4,7 +4,7 @@
 
 ![Angular Preview](https://user-images.githubusercontent.com/22189661/40693166-e60180a4-63f0-11e8-8766-131f4c66ef5d.png)
 
-Language Support: Typescript, Javascript, Html, Css, Dart, Json, Markdown.
+Language Support: Typescript, Javascript, Html, Scss, Css, Dart, Json, Markdown, GraphQL.
 
 To use with Bracket Pair Colorizer:
 
