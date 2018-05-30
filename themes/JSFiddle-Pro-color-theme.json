@@ -8,6 +8,8 @@
 
         // ts
         "variable.other.object.property.ts",
+        "variable.object.property.ts",
+        "meta.object-literal.key.ts",
 
         // css
         "support.type.property-name.media.css"
@@ -30,7 +32,6 @@
         "entity.name.tag",
         "variable.other.object",
         "entity.other.inherited-class",
-        "entity.name.function",
         "variable.parameter",
         "variable.other.readwrite",
         "support.class.console",
@@ -57,10 +58,6 @@
         "constant.language.boolean",
         "constant.other.color.rgb-value",
         "support.constant.property-value",
-
-        // ts
-        "variable.other.readwrite.ts",
-
         ""
       ],
       "settings": {
@@ -112,9 +109,8 @@
         "keyword.control.at-rule.media",
 
         // ts
-        "variable.other.object.property.ts",
-        "variable.other.property.ts",
-        "meta.object-literal.key.ts",
+        "entity.name.type.class.ts",
+        "meta.definition.variable.ts",
 
         // js
         "constant.language.boolean.false.js",
@@ -147,10 +143,6 @@
       "name": "Green",
       "scope": [
         "string.quoted",
-        "support.type.primitive",
-
-        // ts
-        "string.template.ts",
 
         // dart
         "string.interpolated.single.dart",
@@ -170,11 +162,13 @@
         "keyword.other.unit",
         "keyword.operator",
 
+        "support.type.primitive",
+        "support.type.builtin",
+
         // ts
         "storage.type.function.arrow.ts",
         "storage.type.ts",
-        "constant.language.boolean.true.ts",
-        "constant.language.boolean.false.ts",
+        "string.template.ts",
         "punctuation.definition.typeparameters.begin.ts",
         "punctuation.definition.typeparameters.end.ts"
       ],
