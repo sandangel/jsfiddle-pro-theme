@@ -139,6 +139,7 @@
 
         // data structures name
         "entity.name.class",
+        "entity.name.type.class",
         "entity.name.struct",
         "entity.name.enum",
         "entity.name.union",
