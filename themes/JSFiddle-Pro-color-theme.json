@@ -173,6 +173,8 @@
         // ts
         "storage.type.function.arrow.ts",
         "storage.type.ts",
+        "constant.language.boolean.true.ts",
+        "constant.language.boolean.false.ts",
         "punctuation.definition.typeparameters.begin.ts",
         "punctuation.definition.typeparameters.end.ts"
       ],
