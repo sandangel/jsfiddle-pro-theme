@@ -17,5 +17,6 @@
       }
     ]
   },
-  "repository": "https://github.com/sandangel/jsfiddle-pro-theme"
+  "repository": "https://github.com/sandangel/jsfiddle-pro-theme",
+  "icon": "Logo.png"
 }
