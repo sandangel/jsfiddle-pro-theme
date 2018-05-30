@@ -148,6 +148,9 @@
         "string.quoted",
         "support.type.primitive",
 
+        // ts
+        "string.template.ts",
+
         // dart
         "string.interpolated.single.dart",
         "string.interpolated.double.dart",
