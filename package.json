@@ -2,8 +2,10 @@
   "name": "jsfiddle-pro",
   "displayName": "JSFiddle Pro",
   "description": "A new Light Theme inspired by JSFiddle syntax color.",
+  "icon": "images/Logo.png",
   "version": "0.0.4",
   "publisher": "SandAngel",
+  "repository": "https://github.com/sandangel/jsfiddle-pro-theme",
   "engines": {
     "vscode": "^1.23.0"
   },
@@ -16,7 +18,5 @@
         "path": "./themes/JSFiddle-Pro-color-theme.json"
       }
     ]
-  },
-  "repository": "https://github.com/sandangel/jsfiddle-pro-theme",
-  "icon": "Logo.png"
+  }
 }
