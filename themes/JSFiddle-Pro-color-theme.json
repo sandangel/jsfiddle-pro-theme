@@ -114,6 +114,7 @@
         // ts
         "variable.other.object.property.ts",
         "variable.other.property.ts",
+        "meta.object-literal.key.ts",
 
         // js
         "constant.language.boolean.false.js",
