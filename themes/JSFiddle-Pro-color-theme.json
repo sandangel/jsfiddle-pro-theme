@@ -136,7 +136,16 @@
     },
     {
       "name": "Red",
-      "scope": ["constant.numeric", "keyword.other.unit", "keyword.operator"],
+      "scope": [
+        "constant.numeric",
+        "keyword.other.unit",
+        "keyword.operator",
+
+        // ts
+        "storage.type.function.arrow.ts",
+        "punctuation.definition.typeparameters.begin.ts",
+        "punctuation.definition.typeparameters.end.ts"
+      ],
       "settings": {
         "foreground": "#ED5C65"
       }
