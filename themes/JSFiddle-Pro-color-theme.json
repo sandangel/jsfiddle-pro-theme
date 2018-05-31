@@ -19,14 +19,18 @@
         // property for selector in css like language
         "support.type.property-name",
 
-        // properties go after this keyword
-        "support.variable.property",
+        // properties access by this keyword or an object itself
+        "variable.other.object.property",
+        "variable.other.object",
 
-        // properties when access object
-        "variable.other.property",
+        // properties for object literal
+        "variable.object.property",
 
         // parameter in function
-        "variable.parameter"
+        "variable.parameter",
+
+        // @ mark for decorator
+        "punctuation.decorator"
       ],
       "settings": {
         "foreground": "#39464E",
@@ -53,10 +57,6 @@
         // name of function
         "entity.name.function",
 
-        // markup header like in markdown
-        "entity.name.section",
-        "markup.heading",
-
         // markup underline
         "markup.underline",
 
@@ -66,7 +66,6 @@
         // name of variable
         "entity.name.constant",
         "variable.other.constant",
-        "variable.other.readwrite",
         "punctuation.definition.variable",
 
         // selector for css, scss
@@ -74,6 +73,12 @@
 
         // methods called
         "support.function",
+
+        // access properties of variable
+        "support.variable.property",
+
+        // properties when access object
+        "variable.other.property",
 
         // name of function when reference
         "variable.function"
@@ -92,7 +97,8 @@
         // framework bultin constant, variable, type like __dirname or css value
         "support.constant",
         "support.variable",
-        "support.type"
+        "support.type.builtin",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "#221199",
@@ -109,10 +115,9 @@
 
         // language keyword like function, class...
         "storage.type",
-        "storage.modifier",
 
-        // reserved variables such as this, self, super
-        "variable.language"
+        // class, variable modifier like static, private
+        "storage.modifier"
       ],
       "settings": {
         "foreground": "#a151d2",
@@ -138,18 +143,23 @@
         "constant.other.placeholder",
 
         // data structures name
+        "entity.name",
         "entity.name.class",
-        "entity.name.type.class",
+        "entity.name.class.forward-decl",
+        "entity.name.type",
         "entity.name.struct",
         "entity.name.enum",
         "entity.name.union",
         "entity.name.trait",
         "entity.name.interface",
-        "support.class",
 
-        // type anotation for variables, parameters and function return
-        "meta.type.annotation",
-        "meta.return.type",
+        // type, interface for type language like graphql, dart
+        "support.class",
+        "support.type",
+
+        // markup header like in markdown
+        "entity.name.section",
+        "markup.heading",
 
         // import, export variables
         "variable.other.readwrite.alias"
@@ -165,10 +175,7 @@
         "string",
 
         // markup quote
-        "markup.quote",
-
-        // type parameters
-        "meta.type.parameters"
+        "markup.quote"
       ],
       "settings": {
         "foreground": "#249D7F",
@@ -182,7 +189,16 @@
         "constant.numeric",
 
         // operator
-        "keyword.operator"
+        "keyword.operator",
+
+        // illegal or old version
+        "invalid",
+
+        // type seperator '|'
+        "punctuation.or",
+
+        // reserved variables such as this, self, super
+        "variable.language"
       ],
       "settings": {
         "foreground": "#ED5C65",
