@@ -4,9 +4,19 @@
 
 Dark theme is great when you're coding. But when you need to show your work, a demo to someone else, presenting at a conference, or just making Video record for teaching, a light theme would be a solid choice. Black text on white background is just easier to read for people.
 
-![Angular Preview](https://user-images.githubusercontent.com/22189661/40693166-e60180a4-63f0-11e8-8766-131f4c66ef5d.png)
+Support Italic font out of the box.
 
-Language Support: Typescript, Javascript, Html, Scss, Css, Dart, Json, Markdown, GraphQL, C, C++
+![Angular Preview](https://user-images.githubusercontent.com/22189661/40760446-d4cb0e18-64d1-11e8-981e-27f6cab4bd0c.png)
+
+![Scss Preview](https://user-images.githubusercontent.com/22189661/40760548-3c3e481c-64d2-11e8-89fd-29c8c9c94b34.png)
+
+![Html Preview](https://user-images.githubusercontent.com/22189661/40760703-f841f40a-64d2-11e8-8bf1-e891844c316f.png)
+
+![Dart Preview](https://user-images.githubusercontent.com/22189661/40760682-d4a249be-64d2-11e8-87eb-74246177aa5a.png)
+
+![C/C++ Preview](https://user-images.githubusercontent.com/22189661/40760787-5bcf8ad2-64d3-11e8-8e94-1492e0cee990.png)
+
+Language Support: Add the language name you like here. ^^
 
 To use with Bracket Pair Colorizer:
 
