@@ -212,7 +212,7 @@
     "editorCursor.foreground": "#39464E",
     "editorWhitespace.foreground": "#969896",
     "editorIndentGuide.background": "#AAAAAA",
-    "editor.lineHighlightBackground": "#D7D4F030",
+    "editor.lineHighlightBackground": "#D7D4F0",
     "editor.rangeHighlightBackground": "#FDFF00",
     "editor.hoverHighlightBackground": "#ADD6FF",
     "peekViewEditor.matchHighlightBackground": "#F5D802",
