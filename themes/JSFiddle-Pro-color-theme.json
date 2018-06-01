@@ -26,6 +26,9 @@
         // properties for object literal
         "variable.object.property",
 
+        // reference variable
+        "variable.other.readwrite",
+
         // parameter in function
         "variable.parameter",
 
@@ -48,7 +51,7 @@
     {
       "name": "Blue",
       "scope": [
-        // markup tag
+        // markup tag like <h1>
         "entity.name.tag",
 
         // name of namespace
@@ -57,10 +60,10 @@
         // name of function
         "entity.name.function",
 
-        // markup underline
+        // markup underline for links
         "markup.underline",
 
-        // label like goto
+        // label using in for loop
         "entity.name.label",
 
         // name of variable
@@ -91,10 +94,10 @@
     {
       "name": "DarkBlue",
       "scope": [
-        // type built into the language
+        // type built into the language like null, undefined
         "constant.language",
 
-        // framework bultin constant, variable, type like __dirname or css value
+        // framework bultin constant, variable, type like __dirname in nodejs or css value
         "support.constant",
         "support.variable",
         "support.type.builtin",
@@ -116,7 +119,7 @@
         // language keyword like function, class...
         "storage.type",
 
-        // class, variable modifier like static, private
+        // class, member modifier like static, private
         "storage.modifier"
       ],
       "settings": {
@@ -162,7 +165,10 @@
         "markup.heading",
 
         // import, export variables
-        "variable.other.readwrite.alias"
+        "variable.other.readwrite.alias",
+
+        // string interpolation mark
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#f18c16",
@@ -175,7 +181,10 @@
         "string",
 
         // markup quote
-        "markup.quote"
+        "markup.quote",
+
+        // type parameter mark
+        "punctuation.definition.typeparameters"
       ],
       "settings": {
         "foreground": "#249D7F",
