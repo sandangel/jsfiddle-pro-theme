@@ -168,11 +168,7 @@
         "variable.other.readwrite.alias",
 
         // string interpolation mark
-        "punctuation.definition.template-expression",
-
-        /** graphql */
-        // query parameter
-        "variable.parameter.graphql"
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#f18c16",
@@ -188,7 +184,11 @@
         "markup.quote",
 
         // type parameter mark
-        "punctuation.definition.typeparameters"
+        "punctuation.definition.typeparameters",
+
+        /** graphql */
+        // query parameter
+        "variable.parameter.graphql"
       ],
       "settings": {
         "foreground": "#249D7F",
