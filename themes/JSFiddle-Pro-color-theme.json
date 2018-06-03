@@ -77,10 +77,8 @@
         // methods called
         "support.function",
 
-        // access properties of variable
-        "support.variable.property",
-
         // properties when access object
+        "support.variable.property",
         "variable.other.property",
 
         // name of function when reference
@@ -101,7 +99,10 @@
         "support.constant",
         "support.variable",
         "support.type.builtin",
-        "support.type.primitive"
+        "support.type.primitive",
+
+        // color value
+        "constant.other.color"
       ],
       "settings": {
         "foreground": "#221199",
@@ -113,7 +114,7 @@
       "scope": [
         "keyword",
 
-        // markup italic
+        // markup *words* in markdown
         "markup.italic",
 
         // language keyword like function, class...
@@ -133,7 +134,7 @@
         // markup attribute
         "entity.other.attribute-name",
 
-        // markup bold
+        // markup **words** in markdown
         "markup.bold",
 
         // inherit class
@@ -186,8 +187,7 @@
         // type parameter mark
         "punctuation.definition.typeparameters",
 
-        /** graphql */
-        // query parameter
+        // query parameter in graphql
         "variable.parameter.graphql"
       ],
       "settings": {
