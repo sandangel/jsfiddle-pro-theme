@@ -226,17 +226,17 @@
     "editorWhitespace.foreground": "#969896",
     "editorIndentGuide.background": "#AAAAAA",
     "editor.lineHighlightBackground": "#D7D4F0",
-    "editor.rangeHighlightBackground": "#FDFF00",
-    "editor.hoverHighlightBackground": "#ADD6FF",
-    "peekViewEditor.matchHighlightBackground": "#F5D802",
+    "editor.rangeHighlightBackground": "#ffffb9",
+    "editor.hoverHighlightBackground": "#d6ebff",
     "editor.selectionBackground": "#D7D4F0",
     "editor.inactiveSelectionBackground": "#E1E5EA",
     "editor.findRangeHighlightBackground": "#D7D4F040",
     "editor.findMatchHighlightBackground": "#D7D4F060",
-    "peekViewResult.matchHighlightBackground": "#D7D4F060",
     "editor.findMatchBackground": "#D7D4F080",
     "editor.wordHighlightBackground": "#D7D4F050",
-    "editor.wordHighlightStrongBackground": "#D7D4F070"
+    "editor.wordHighlightStrongBackground": "#D7D4F070",
+    "peekViewEditor.matchHighlightBackground": "#F5D802",
+    "peekViewResult.matchHighlightBackground": "#D7D4F060"
   },
   "name": "JSFiddle Pro"
 }
