@@ -223,6 +223,7 @@
     "editor.background": "#F3F5F6",
     "editor.foreground": "#39464E",
     "editorCursor.foreground": "#39464E",
+    "editorCursor.background": "#F3F5F6",
     "editorWhitespace.foreground": "#969896",
     "editorIndentGuide.background": "#AAAAAA",
     "editor.lineHighlightBackground": "#d7d4f0f1",
