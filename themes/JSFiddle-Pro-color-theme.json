@@ -169,8 +169,7 @@
         "variable.other.readwrite.alias",
 
         // string interpolation mark
-        "punctuation.definition.template-expression",
-        "string.interpolated"
+        "punctuation.definition.template-expression"
       ],
       "settings": {
         "foreground": "#f18c16",
