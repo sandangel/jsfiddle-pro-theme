@@ -260,6 +260,7 @@
     "activityBar.foreground": "#705697",
     "activityBarBadge.background": "#705697",
     "titleBar.activeBackground": "#dedef1",
+    "scrollbarSlider.background": "#a69fe96c",
     "button.background": "#705697",
     "editorGroup.dropBackground": "#C9D0D988",
     "inputValidation.infoBorder": "#4ec1e5",
