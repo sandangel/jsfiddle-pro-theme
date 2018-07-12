@@ -259,6 +259,7 @@
     "activityBar.background": "#EDEDF5",
     "activityBar.foreground": "#705697",
     "activityBarBadge.background": "#705697",
+    "titleBar.activeBackground": "#e5e5f5",
     "button.background": "#705697",
     "editorGroup.dropBackground": "#C9D0D988",
     "inputValidation.infoBorder": "#4ec1e5",
