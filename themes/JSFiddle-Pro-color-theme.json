@@ -255,7 +255,7 @@
     "peekViewResult.matchHighlightBackground": "#93C6D6",
     "statusBar.background": "#705697",
     "statusBar.noFolderBackground": "#705697",
-    "statusBar.debuggingBackground": "#705697",
+    "statusBar.debuggingBackground": "#9769dc",
     "activityBar.background": "#EDEDF5",
     "activityBar.foreground": "#705697",
     "activityBarBadge.background": "#705697",
