@@ -120,6 +120,11 @@
         // language keyword like function, class...
         "storage.type",
 
+        // React Component attributes.
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.jsx",
+
         // class, member modifier like static, private
         "storage.modifier"
       ],
